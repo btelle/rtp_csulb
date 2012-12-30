@@ -1,0 +1,238 @@
+/* 
+    Document   : rtp#lots.css
+    Created on : Nov 27, 2011, 12:00:58 PM
+    Author     : Brandon
+    Modified   : Chethan     Deleted a line width:=960px
+    Description:
+        Defines the positioning of lot list items on the homepage.
+        A lot of rules that don't need to bog down the main CSS.
+*/
+
+
+#homepage_map {
+    height: 1014px;
+    background-image: url('../images/home_map.jpg');
+}
+
+#lotDetail {
+    display: none;
+    width: 175px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3px;
+    border: 2px dashed #ccc;
+    position: relative;
+    border-radius: 7px;
+}
+#lotDetail ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#lotDetail ul li {
+    margin-bottom: 4px;
+}
+
+#lotDetail h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 13pt;
+    line-height: 100%;
+    padding: 0px;
+    margin: 5px;
+}
+
+ul.home_lots {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    position: relative;
+}
+
+ul.home_lots li {
+    border: 2px dashed black;
+    background-color: white;
+    padding: 3px;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    font-size: 10pt;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px #333;
+}
+ul.home_lots li h2 {
+    font-size: 10pt;
+    font-weight: normal;
+    line-height: 100%;
+    margin: 3px;
+    
+}
+ul.home_lots li span {
+    font-weight: bold;
+}
+ul.home_lots li.closed {
+    border-color: #999999;
+    background-color: #CCCCCC;
+}
+ul.home_lots li.full {
+    border-color: #990000;
+    background-color: #FF6666;
+}
+ul.home_lots li.mid {
+    border-color: #FFCC00;
+    background-color: #FFFF99;
+}
+ul.home_lots li.empty {
+    border-color: #006600;
+    background-color: #99FF99;
+}
+
+/* lot positioning */
+#lot1 {
+    top: 530px;
+    left: 225px;
+}
+#lot3 {
+    top: 460px;
+    left: 540px;
+}
+#lot4 {
+    top: 595px;
+    left: 485px;
+}
+#lot5 {
+    top: 685px;
+    left: 485px;
+}
+#lot6 {
+    top: 900px;
+    left: 485px;
+}
+#lot7 {
+    top: 955px;
+    left: 655px;
+}
+#lot8 {
+    top: 755px;
+    left: 675px;
+}
+#lot8a {
+    top: 815px;
+    left: 690px;
+}
+#lot9 {
+    top: 465px;
+    left: 880px;
+}
+#lot10 {
+   top: 375px;
+   left: 620px;
+}
+#lot11a {
+    top: 105px;
+    left: 885px;
+}
+#lot11b {
+    top: 205px;
+    left: 885px;
+}
+#lot11c {
+    top: 300px;
+    left: 850px;
+}
+#lot12 {
+    top: 70px;
+    left: 750px;
+}
+#lot13 {
+    top: 85px;
+    left: 440px;
+}
+#lot14a {
+    top: 50px;
+    left: 345px;
+}
+#lot14b {
+    top: 135px;
+    left: 315px;
+}
+#lot14c {
+    top: 250px;
+    left: 310px;
+}
+#lot14d {
+    top: 215px;
+    left: 235px;
+}
+#lot15 {
+    top: 300px;
+    left: 395px;
+}
+#lot16 {
+    top: 325px;
+    left: 270px;
+}
+#lot17 {
+    top: 385px;
+    left: 380px;
+}
+#lot18 {
+    top: 440px;
+    left: 335px;
+}
+#lot19 {
+    top: 435px;
+    left: 255px;
+}
+#lot20 {
+    top: 370px;
+    left: 130px;
+}
+#struct1 {
+    top: 215px;
+    left: 435px;
+}
+#struct2 {
+    top: 195px;
+    left: 815px;
+}
+#struct3 {
+    top: 100px;
+    left: 823px;
+}
+#lotstateunivdr {
+    top: 540px;
+    left: 810px;
+}
+#lotcampusdr {
+    width: 75px;
+    top: 955px;
+    left: 480px;
+}
+#lotturnaround {
+    top: 935px;
+    left: 580px;
+}
+#lotcdc {
+    top: 45px;
+    left: 180px;
+}
+#lotdorms {
+    top: 110px;
+    left: 130px;
+}
+#lotppfm {
+    top: 365px;
+    left: 840px;
+}
+
+#map_prefs {
+    position: relative;
+    width: 450px;
+    top: 600px;
+    left: 20px;
+}
+#map_prefs div label {
+    width: 125px;
+}

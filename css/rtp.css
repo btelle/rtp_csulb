@@ -1,0 +1,237 @@
+/* 
+    Document   : rtp.css
+    Created on : Nov 1, 2011, 6:13:57 PM
+    Author     : Brandon Telle
+    Modifed    : Chethan G      Changed the look and feel
+                 Brandon T      Organized, commented
+                 Ibrahım G      Changed the look of Event Calander
+*/
+
+/* Globals */
+body {
+	font-family: "Lucida Grande", Arial;
+	font-size: 12px;
+	background-color: #ffc;
+	color: #000000;	
+	padding:0px;
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* Layout */
+#content {
+    margin-top: 0px;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+#main {
+    padding: 10px;
+    margin: 0px;
+    margin-top: 2px;
+    background-color: #E1F0F4;
+    border:1px solid #96BEEA;
+    clear:both;
+    overflow:auto;
+}
+
+/* Header */
+#logo {
+    padding: 10px 20px 0px;
+    width: 300px;
+}
+#logo img {
+    border: none;
+}
+#disclaimer {
+    color: #777777;
+    font-size: 8pt;
+    float: left;
+    width: 230px;
+    margin-left: 20px;
+}
+/* Login form, logged-in info. Upper-right corner */
+#login, #userdata, #login_small {
+    float: right;
+    padding: 15px;
+    background-color: #E1F0F4;
+    border:1px solid #96BEEA;
+}
+#login_small {
+    display: none;
+}
+#login fieldset {
+    padding: 2px;
+}
+#login input[type='text'], #login input[type='email'], #login input[type='password'] {
+    width: 150px;
+    margin-bottom: 2px;
+	border:1px solid #96BEEA;
+}
+#login a {
+    float: right;
+}
+/* Header navigation */
+nav {
+    margin-top: 30px;
+    width: 100%;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    list-style: none;
+    margin: 0px 5px 0 0;
+    padding: 5px 10px 2px;
+    font-size: 10pt;
+    background-color: #96BEEA;
+	float:left;
+}
+nav ul li:hover {
+    background-color: #E1F0F4;
+}
+nav ul li a {
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+nav ul li a:hover {
+	text-decoration:underline;
+}
+
+/* Footer */
+footer {    
+	width:100%;
+	margin:10px 0;
+}
+footer ul {	
+	overflow:auto;
+	margin: auto;
+	width:400px;
+}
+footer ul li {
+	list-style:none;
+	margin: 0 15px;
+	float:left;
+	font-size: 12px;
+}
+
+/* Form layout */
+form fieldset div {
+    padding: 5px;
+}
+form fieldset div.submit {
+    clear: both;
+}
+form fieldset div label {
+    float: left;
+    width: 300px;
+}
+#recaptcha_widget_div {
+    float: left;
+}
+
+/* Lot info navigation */
+#lot-info-nav {
+    float: left;
+    margin: 0px;
+    width: 200px;
+    padding: 0px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+#lot-info-nav ul {
+    list-style: none;
+    display: none;
+    margin-top: 10px;
+}
+#lot-info-nav ul.selected {
+    display: block;
+}
+#lot-info-nav ul li {
+    font-size: 10pt;
+    padding: 3px;
+    margin-bottom: 2px;
+    background: #E1F0F4;
+}
+#lot-info-nav ul li.selected {
+    background: #D3F4FF;
+}
+#lot-info-nav li:hover ul {
+    display: block;
+}
+#lot-info-nav li {
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+    background-color: #96BEEA;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+#lot-info-nav li a {
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+#lot-info-nav li a:hover {
+	text-decoration:underline;
+}
+.lot-details-content {
+	float:right;
+	width:705px;
+}
+.imgfloat {
+    float: right;
+}
+
+/* Calendar Page */
+#datepicker {
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+}
+#calendar_load {
+    width: 650px;
+    background-color: #FFFFCC;
+    border: 1px solid #DDDDAA;
+    float: right;
+    padding: 8px;
+}
+#calendar_events {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+}
+#calendar_events caption {
+    background-color: #96BEEA;
+    font-weight: bold;
+}
+#calendar_events td, #calendar_events th {
+    border: 1px solid #96BEEA;
+    padding: 3px;
+}
+
+/* Random one-off classes */
+#account_changed {
+    color: #208004;
+}
+.blue_header {
+    color:blue;
+}
+.error {
+    color: red;
+}

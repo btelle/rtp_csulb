@@ -1,0 +1,97 @@
+/* 
+    Document   : rtp.mobile.css
+    Created on : Dec 6, 2011, 4:48:25 PM
+    Author     : Brandon Telle
+    Description:
+        Defines mobile stylesheet for RTP application.
+*/
+
+
+body {
+    width: 480px;
+    background-color: #333;
+}
+#content {
+   width: 95%;
+}
+#main {
+    background-color: #DDD;
+    border-color: #BBB;
+}
+#homepage_map {
+    background: inherit;
+    height: inherit;
+}
+#homepage_map ul.home_lots {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: inherit;
+}
+
+#homepage_map ul.home_lots li {
+    border-bottom: none;
+    padding: 5px;
+    width: 420px;
+    text-align: left;
+    font-size: 12pt;
+    position: inherit;
+}
+
+#homepage_map ul.home_lots li h2{
+    display: inline;
+    font-weight: bold;
+}
+
+#homepage_map ul.home_lots li span{
+    float: right;
+    font-weight: normal;
+}
+
+#login {
+    display: none;
+}
+
+#login_small {
+    display: block;
+}
+#lotDetail {
+/*    width: 0px;*/
+}
+#map_prefs {
+    display: none;
+}
+form fieldset div label {
+    width: 150px;
+}
+
+.lot-details-content {
+    width: 200px;
+}
+
+.lot-details-content img {
+    width: 200px;
+}
+
+nav ul li {
+    background-color: #CCC;
+}
+nav ul li:hover {
+    background-color: #EEE;
+}
+
+#login, #userdata, #login_small {
+    background-color: #EEE;
+    border:1px solid #CCC;
+}
+
+#lot-info-nav li {
+    background-color: #BBB;
+}
+
+#lot-info-nav ul li {
+    background-color: #EEE;
+}
+#disclaimer {
+    width: 175px;
+}

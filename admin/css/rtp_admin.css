@@ -1,0 +1,275 @@
+/*
+    Document   : rtp_admin.css
+    Created on : Dec 1, 2011
+    Author     : Chethan G
+*/
+
+div {
+	margin:0px;
+	padding:0px;
+}
+
+th {
+	line-height:30px;
+}
+
+img {
+	border:0px;
+}
+
+td {
+	vertical-align:top;
+}
+
+body {
+	font-family: "Lucida Grande", Arial;
+	font-size: 12px;
+	background-color: #ffc;
+	color: #000000;	
+	padding:0px;
+}
+
+.main {
+	width: 1000px;
+	margin:auto;	
+}
+
+.header {
+	width:1000px;
+	margin:15px auto 15px auto;
+	overflow:auto;
+}
+
+.header .logo {
+	width:150px;
+	height:50px;
+	float:left;
+	background-image: url(../images/logo.png);
+}
+
+.header .main-menu {
+	width:820px;
+	height:30px;
+	margin:20px 5px 0 0;
+	background-color:#1A2328;
+	float:right;
+}
+
+.header .main-menu ul {
+	padding: 5px 15px;
+	margin:0px;
+}
+
+.header .main-menu .menu li {
+	list-style:none;
+	display:inline;	
+	margin-right:15px;
+	vertical-align:middle;
+}
+
+.header .main-menu .menu li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.header .main-menu .menu li a:hover {
+	color:#43ACE0;
+	text-decoration:none;
+}
+
+.header .main-menu .menu li .selected {
+	font-size:14px;
+	font-weight:bold;
+	color:#43ACE0;
+	text-decoration:none;
+}
+	
+.contentwraper {
+	width: 1000px;
+}
+
+.contentwraper #msg {
+	position: absolute;
+	top:100px;
+	width:550px;
+	line-height:25px;
+	margin:0px 0 0 408px;
+	padding:0 10px;
+	text-align:center;
+	z-index:10000;
+	display:none;
+	border-radius:7px;
+	background-color:#FFFFCC
+}
+
+.contentwraper .success {
+	/*background-color:#B7E554;*/
+	box-shadow: 1px 1px 5px #267A1E;
+	color: #1C7513;
+	font-weight:bold;
+	font-size:12px
+}
+
+.contentwraper .error {
+        /*background-color:#CC1918;*/
+        box-shadow: 1px 1px 5px #C93636;
+        color: #CC1918;
+        font-weight:bold;
+        font-size:12px;
+}
+
+.contentwraper .message {
+        /*background-color:#CC1918;*/
+        box-shadow: 1px 1px 5px #000;
+        color: #000;
+        font-weight:bold;
+        font-size:12px;
+}
+
+.contentwraper .content-top {
+        width: 1000px;
+        height:12px;
+        background-image: url(../images/content-top.png);
+}
+
+.contentwraper .content-main {
+        width: 1000px;
+        padding:0px;
+        color:#000000;
+        background-image: url(../images/content-middle.png);
+        overflow:auto;
+}
+
+.contentwraper .content-main .leftsidebar {
+        width:160px;
+        float:left;
+        margin:10px 20px;
+}
+
+        .contentwraper .content-main .leftsidebar h3 {
+                margin:5px 0;
+                color:#0083FF;
+}
+
+        .contentwraper .content-main .leftsidebar li {
+                list-style: none;
+                font-size:12px;
+                margin: 7px 10px;
+}
+
+        .contentwraper .content-main .leftsidebar li a {
+                text-decoration:none;
+                color:#000;
+}
+
+.contentwraper .content-main .leftsidebar li a:hover {
+        text-decoration:none;
+        color:#0083FF;
+}
+
+.contentwraper .content-main .leftsidebar .selected{
+        list-style: none;
+        font-size:12px;
+        font-weight:bold;
+        margin: 7px 10px;
+}
+
+.contentwraper .content-main .content {
+        width:765px;
+        float:right;
+        margin:10px 25px 10px 0px;
+}
+
+.contentwraper .content-main .content a {
+        text-decoration:underline;
+        color:#000;
+}
+
+.contentwraper .content-main .content a:hover {
+        text-decoration:none;
+        color:#0083FF;
+}
+
+.contentwraper .content-main .content h2 {
+        margin:0 0 15px 0;
+        color:#0083FF;
+}
+
+.formlabel {
+        float:left;
+        text-align:left;
+        height:35px;
+}
+
+.formelement {
+        float:right;
+        text-align:left;
+        height:35px;
+}
+
+.contentwraper .content-main .content .menuitems {
+        width:100%;
+        overflow:auto;
+        margin:auto;
+}
+
+.contentwraper .content-main .content .menuitems div {
+        width:12%;
+        float:left;
+        height:10%;
+        margin:2%;
+        padding:2%;
+        border:1px solid #ccc;
+        text-align:center;
+}
+.contentwraper .content-main .content .menuitems div a {
+        font-size:14px;
+        font-weight:bold;
+        color:#444;
+        text-decoration:none;
+        text-align:center;
+}
+.contentwraper .content-main .content .menuitems div a:hover {
+        color:#111;
+        text-decoration:none;
+        text-align:center;
+}
+
+
+.contentwraper .content-bottom {
+        width: 1000px;
+        height:12px;
+        background-image: url(../images/content-bottom.png);
+}
+
+.footer {
+        width:1000px;
+        border-top:1px solid #52626C;
+        margin:15px auto 15px auto;
+}
+
+
+
+
+/**************************************************************************
+*********************************** Colors ********************************
+**************************************************************************/
+
+.listtable td {
+	padding:3px 0;
+}
+
+.categoryedit {
+	background-color: #ccc;
+	padding-left:5px;
+}
+
+.color2 {
+	background-color: #888;
+}
+
+.bold {
+	font-weight:bold;
+}

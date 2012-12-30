@@ -1,0 +1,94 @@
+/*
+	*******************
+	General Page Styles
+	*******************
+*/
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:160%;
+	background:#efefef;
+}
+h1, h2
+{
+	font-weight:normal;
+}
+h1
+{
+	font-size:20px;
+}
+h2
+{
+	font-size:18px;
+}
+#cerceve
+{
+	width:500px;
+	margin:10px auto;
+	padding:20px;
+	background:#fff;
+	
+	/* CSS3 Shadow */
+	-moz-box-shadow: 0 0 6px #ccc;
+	-webkit-box-shadow: 0 0 6px #ccc;
+	box-shadow: 0 0 6px #ccc;
+}
+
+
+
+
+
+/*
+	********************
+	Promo Related Styles
+	********************
+*/
+
+/* Remove list formatting from Promo UL/LI */
+#promo, #promo li
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+/* Styles for the optional promo navigation container */
+#promonav
+{
+	padding:4px;
+	background:#eee;
+	border:1px solid #e0e0e0;
+	margin-top:1px;
+}
+
+/* Keep the next button at the right edge */
+#promonav .next
+{
+	float:right;
+}
+
+/* Link styles in promo navigation  */
+#promonav a
+{
+	padding:0 3px;
+	border:1px solid #eee;
+	text-decoration:none;
+	outline:0;
+	color:#777;
+}
+
+/* Style applied on mouseover of promo navigation link(s) */
+#promonav a:hover
+{
+	color:#000;
+}
+/* The index automatically gets an activeSlide class, use this to indicate the current slide */
+#promoindex a.activeSlide
+{
+	font-weight:bold;
+	background:#fff;
+	border-color:#ccc;
+}
+
+
